@@ -1,13 +1,11 @@
-# grouping_gaavo
-
 Run Application:
-  From the command line:
-    1. clone this repo - `git clone https://github.com/kalkrueger/grouping_gaavo.git`
-    2. navigate to the cloned repo - `cd grouping_gaavo`
-    3. install dependencies - `npm install`
-    4. run app using the start script - `npm start`
-    5. You will be prompted to enter fare and possessed pieces of Gaavo via the
-      command line
+
+  1. open the terminal
+  2. clone this repo: `git clone https://github.com/kalkrueger/grouping_gaavo.git`
+  3. navigate to the cloned repo: `cd grouping_gaavo`
+  4. install dependencies: `npm install`
+  5. run app using the start script: `npm start`
+  6. You will be prompted to enter fare and possessed pieces of Gaavo via the command line
 
 Testing Application:
   - Once the application is cloned and `npm install` has been run you can test the
