@@ -21,7 +21,7 @@ Assumptions made while creating this application:
 Addition functionality that can be added:
   - Functionality for a user to erase the last input if it is wrong
   - Loop to calculate multiple fares in the same session
-	  - remove used pieces of Gaavo from `pieces` array
+	  - remove used pieces of Gaavo from `pieces` array or prompt user to enter all pieces again
   - Logic to group like pieces together
 	  - e.g. if there are two 3G pieces being used to make 6G respond with
      ’two 3G pieces’ instead of ‘3G and 3G’
