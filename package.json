@@ -1,0 +1,26 @@
+{
+  "name": "grouping_gaavo",
+  "version": "1.0.0",
+  "description": "converting Gaavo pieces into the correct change",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalkrueger/grouping_gaavo.git"
+  },
+  "author": "Kal Krueger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalkrueger/grouping_gaavo/issues"
+  },
+  "homepage": "https://github.com/kalkrueger/grouping_gaavo#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
