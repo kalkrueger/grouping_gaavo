@@ -36,12 +36,13 @@ function calcGaave ( fare, pieces ) {
 function checkCombos ( fare, pieces ) {
 	let correctChange = false;
 
+	//local function used to sum an individual combination
 	function sumCombo ( combo ) {
 		return combo.reduce( ( a, b ) => a + b, 0 );
 	}
 
 	function sumCombos ( n, src, combo ) {
-		if ( n == 0 ) {
+		if ( n === 0 ) {
 			if ( combo.length > 0 ) {
 				if ( sumCombo( combo ) === fare ) {
 					correctChange = combo;
@@ -82,7 +83,7 @@ function piecesToString( pieces ) {
 	//sorts pieces from least to greatest to help user locate them
 	pieces.sort( function( a, b ) {
 		return a - b;
-	} );
+	});
 
 	if ( numOfPieces === 1 ) {
 		piecesAsString = `${pieces[0]}G piece`;
@@ -97,4 +98,5 @@ function piecesToString( pieces ) {
 	return `Get your ${piecesAsString} ready!`;
 }
 
-module.exports = calcGaave;
+module.exports = calcGaave; 
+
